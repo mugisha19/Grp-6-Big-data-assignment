@@ -4,15 +4,6 @@
 
 This repository contains two Python programs demonstrating fundamental programming concepts including user input handling, data processing, and string manipulation.
 
-## 📋 Table of Contents
-- [Projects Overview](#projects-overview)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Code Structure](#code-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## 🚀 Projects Overview
 
 ### 1. Student Management System
