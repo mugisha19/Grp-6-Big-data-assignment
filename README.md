@@ -1,10 +1,11 @@
-"# Group-6-Big-data-assignment" 
+"# Group-6-Big-data-assignment"
 
 # Python Programming Projects
 
 This repository contains two Python programs demonstrating fundamental programming concepts including user input handling, data processing, and string manipulation.
 
 ## 📋 Table of Contents
+
 - [Projects Overview](#projects-overview)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -16,24 +17,30 @@ This repository contains two Python programs demonstrating fundamental programmi
 ## 🚀 Projects Overview
 
 ### 1. Student Management System
+
 A console-based application for managing student information including name, age, and grades for multiple courses.
 
 ### 2. Palindrome Checker
+
 An interactive program that checks whether a given string is a palindrome, with support for continuous checking until the user chooses to exit.
 
 ## 💻 Installation
 
 ### Prerequisites
+
 - Python 3.6 or higher
 - No additional libraries required (uses built-in Python modules)
 
 ### Setup
+
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/mugisha19/Group-6-Big-data-assignment.git
    ```
 
 2. Navigate to the project directory:
+
    ```bash
    cd Group-6-Big-data-assignment
    ```
@@ -49,12 +56,14 @@ An interactive program that checks whether a given string is a palindrome, with 
 ### Student Management System
 
 The program will prompt you to enter:
+
 - Student's name
 - Student's age
 - Number of courses (2 or 3)
 - Grades for each course
 
 **Example Run:**
+
 ```
 Enter student's name: John Doe
 Enter student's age: 20
@@ -73,11 +82,13 @@ Average Grade: 85.33
 ### Palindrome Checker
 
 The program runs in a loop, allowing you to check multiple strings:
+
 - Enter any string to check if it's a palindrome
 - Type 'exit' to stop the program
 - The checker ignores spaces and case sensitivity
 
 **Example Run:**
+
 ```
 Enter a string to check if it's a palindrome (or type 'exit' to stop): racecar
 Yes, it is a palindrome
@@ -95,12 +106,14 @@ Goodbye!
 ## ✨ Features
 
 ### Student Management System
+
 - ✅ Input validation for number of courses (2 or 3 only)
 - ✅ Automatic grade average calculation
 - ✅ Clean, formatted output display
 - ✅ Error handling for invalid inputs
 
 ### Palindrome Checker
+
 - ✅ Case-insensitive palindrome detection
 - ✅ Ignores spaces in palindrome checking
 - ✅ Continuous loop for multiple checks
@@ -111,30 +124,33 @@ Goodbye!
 
 ### Student Management System Functions
 
-| Function | Description |
-|----------|-------------|
-| `input_student_info()` | Collects student name, age, and grades |
-| `calculate_average(grades)` | Calculates average of given grades |
-| `display_student_info()` | Displays formatted student information |
+| Function                      | Description                                 |
+| ----------------------------- | ------------------------------------------- |
+| `input_student_info()`        | Collects student name, age, and grades      |
+| `calculate_average(grades)`   | Calculates average of given grades          |
+| `display_student_info()`      | Displays formatted student information      |
 | `student_management_system()` | Main function that orchestrates the program |
 
 ### Palindrome Checker Functions
 
-| Function | Description |
-|----------|-------------|
+| Function             | Description                                             |
+| -------------------- | ------------------------------------------------------- |
 | `check_palindrome()` | Main loop for palindrome checking with user interaction |
 
 ## 🔧 Technical Details
 
 ### Input Validation
+
 - **Student Management**: Validates course count (2-3 only)
 - **Palindrome Checker**: Handles exit condition and string processing
 
 ### String Processing
+
 - **Palindrome Logic**: Removes spaces and converts to lowercase before comparison
 - **Reverse String**: Uses Python slice notation `[::-1]` for efficient reversal
 
 ### Error Handling
+
 - Type conversion protection for age and grade inputs
 - Loop-based validation for course number input
 - Clean exit mechanism for palindrome checker
@@ -153,17 +169,18 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👥 Authors
 
-- **Group 6** - *Big Data Assignment*
+- **Group 6** - _Big Data Assignment_
 - Repository: [Group-6-Big-data-assignment](https://github.com/mugisha19/Group-6-Big-data-assignment)
 
 ## 🆘 Support
 
 If you encounter any issues or have questions, please:
+
 1. Check the existing issues in the repository
 2. Create a new issue with detailed description
 3. Include steps to reproduce any bugs
 
 ---
 
-*Happy Coding! 🐍*
-"- Contribution: Fatime Dadi" 
+_Happy Coding! 🐍_
+"- Contribution: Fatime Dadi wardougou (25858)"
